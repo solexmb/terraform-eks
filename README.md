@@ -64,7 +64,7 @@ terraform plan
 terraform apply -auto-approve
 ```
 
-Run the following command to create the kubeconfig file and set the region to eu-west-2[you can choose any region], "myapp-eks-cluster" is the name of the cluster
+Run the following command to create the kubeconfig file and set the region to eu-west-2 (you can choose any region), "myapp-eks-cluster" is the name of the cluster
 
 ```
 aws eks update-kubeconfig --name myapp-eks-cluster --region eu-west-2
